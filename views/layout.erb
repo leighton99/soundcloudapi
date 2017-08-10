@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Layout page</title>
+<link rel="stylesheet" type="text/css" href="<%= url("stylesheet/style.css")%>">
+</head>
+<body>
+<div>
+<h1>Hello my name</h1>
+
+<nav class='menu'>
+  <h1>We sell quailty footprints</h1>
+  <ul class='links'>
+    <li><a href='/contact'>Contact US</a></li>
+    <li><a href='/home'>Home</a></li>
+    <li><a href='/content'>About Us</a></li>
+  </ul>
+  <button onlick="#"><a href="http://google.com">MENU</a></button>
+  <ul class='menubtn'></ul>
+</nav>
+
+<%= yield %>
+
+
+<script type="text/javascript" src="<%= url("javascript/fun.js")%>"></script>
+</body>
+
+<footer> <div class="bottombar">
+      All Rights Reserved © 2017 | <a href="https://privacy.google.com/#">Privacy Policy</a> | <a href="https://www.google.com/policies/terms/">Terms of Service</a>
+  </div> </footer>
+</html>

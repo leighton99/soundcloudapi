@@ -1,0 +1,1 @@
+CREATETABLE users (  id integerPRIMARYKEY AUTOINCREMENT,  fname varchar(50),  dateCreated timestampDEFAULTcurrent_timestamp);
